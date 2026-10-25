@@ -1,11 +1,13 @@
 name: Scrape Talk Locations
 
 on:
-  push:
-    paths:
-      - 'talks/**'
-      - '_talks/**'
-      - 'talkmap.ipynb'
+  # Disabled while there are no talks; uncomment to regenerate the talk map on push
+  # push:
+  #   paths:
+  #     - 'talks/**'
+  #     - '_talks/**'
+  #     - 'talkmap.ipynb'
+  workflow_dispatch:
 
 jobs:
   build:

@@ -1,4 +1,5 @@
 ---
+published: false # Template sample, hidden from the site. Remove this line to show it again.
 title: 'Future Blog Post'
 date: 2199-01-01
 permalink: /posts/2199/01/blog-post-4/

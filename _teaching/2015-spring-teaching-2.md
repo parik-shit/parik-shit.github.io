@@ -1,4 +1,5 @@
 ---
+published: false # Template sample, hidden from the site. Remove this line to show it again.
 title: "Teaching experience 2"
 collection: teaching
 type: "Workshop"
